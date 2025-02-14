@@ -12,15 +12,16 @@ class ProductController extends Controller
     {
         $query = Product::query();
 
-        if ($request->has('category_id')) {
+        if ($request->filled('category_id')) {
             $query->where('category_id', $request->category_id);
         }
 
-        if ($request->has('sort')) {
+        if ($request->filled('sort')) {
             $query->orderBy($request->sort);
         }
 
         $products = $query->get();
+
         $categories = Category::all();
 
         return view('products.index', compact('products', 'categories'));
