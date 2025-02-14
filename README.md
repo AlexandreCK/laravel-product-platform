@@ -104,14 +104,7 @@ Follow these steps to set up the project locally:
 
 ## Screenshots
 
-![Home Page](screenshots/home.png)
-*Home Page with Hero Image*
-
-![Product List](screenshots/products.png)
-*List of Products with Filtering and Sorting Options*
-
-![Product Details](screenshots/product-details.png)
-*Product Details with Ratings*
+![image](https://github.com/user-attachments/assets/469043e6-2569-4bb9-84b1-773942553242)
 
 ---
 
