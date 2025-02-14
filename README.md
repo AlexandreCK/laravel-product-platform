@@ -46,7 +46,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    - Run the command: `git clone https://github.com/AlexandreCK/laravel-product-platform`
-   - Navigate to the project folder: `cd m07-uf3-catalog-ack`
+   - Navigate to the project folder: `cd laravel-product-platform`
 
 2. **Install dependencies**:
    - Install PHP dependencies: `composer install`
